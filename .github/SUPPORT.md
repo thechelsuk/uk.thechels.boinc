@@ -14,8 +14,8 @@ Thank you for using this project! This document explains how to get help with th
 
 If you've found a bug or have a feature request:
 
-1. Search the [existing issues](https://github.com/mat-0/boinc.thechels.uk/issues) to see if someone else has already reported it.
-2. If no existing issue covers your concern, [create a new issue](https://github.com/mat-0/boinc.thechels.uk/issues/new/choose) using the appropriate template.
+1. Search the [existing issues](https://github.com/thechelsuk/uk.thechels.boinc/issues) to see if someone else has already reported it.
+2. If no existing issue covers your concern, [create a new issue](https://github.com/thechelsuk/uk.thechels.boinc/issues/new/choose) using the appropriate template.
 3. Provide as much detail as possible to help us understand and address your concern.
 
 ### Questions and Discussions
