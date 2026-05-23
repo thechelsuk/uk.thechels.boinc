@@ -75,4 +75,4 @@ For changes of a trivial nature to comments and documentation, start the first l
 
 ## Additional Resources
 
-* [General GitHub documentation](http://help.github.com/)
+* [General GitHub documentation](https://support.github.com/)
