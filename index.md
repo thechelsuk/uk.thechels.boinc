@@ -5,14 +5,14 @@ layout: page
 ---
 
 BOINC is a platform that allows computers all round the world to contribute their spare computing capacity to run
-distributed applications. Several of those involved with [TheChels.org](http://thechels.net/tag/thechels/) contribute
+distributed applications. Several of those involved with [TheChels.org](https://thechels.net/tag/thechels/) contribute
 their computers in such a way.
 
 Distributed applications are largely run by Universities to research fields such as Biology & Medicine, Earth Sciences,
 Mathematics or Physics & Astronomy. To cut a very long story short, there are two projects we'd like to talk about;
 Rosetta and World Community Grid.
 
-[Rosetta](http://boinc.bakerlab.org/rosetta/) - Rosetta is described at About
+[Rosetta](https://boinc.bakerlab.org/rosetta/) - Rosetta is described at About
 [Rosetta](https://boinc.bakerlab.org/rosetta/rah/rah_about.php) with useful Wiki links that give an indication of what
 Protein folding is and how it relates to disease. Rosetta doesn't attempt to look for cures, but tries to replicate how
 proteins fold (or mis-fold) so that it can seek to improve on nature or find binding proteins that may be able to
@@ -102,4 +102,4 @@ Below are a list of further Wiki links on the general subject.
 - [BOINC](https://en.wikipedia.org/wiki/Berkeley_Open_Infrastructure_for_Network_Computing)
 - [Distributed computing](https://en.wikipedia.org/wiki/Distributed_computing)
 - [List of Distributed computing projects - Wiki](https://en.wikipedia.org/wiki/List_of_distributed_computing_projects)
-- [Platforms supported by projects](http://boinc.berkeley.edu/projects.php)
+- [Platforms supported by projects](httpss://boinc.berkeley.edu/projects.php)
