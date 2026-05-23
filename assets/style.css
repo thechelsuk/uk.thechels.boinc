@@ -20,7 +20,7 @@ html {
 
 @font-face {
     font-family: "TheChelsLight";
-    src: url("assets/TheChelsLight.woff") format("woff");
+    src: url("/assets/TheChelsLight.woff") format("woff");
 }
 
 .primary {
