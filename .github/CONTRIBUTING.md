@@ -6,8 +6,8 @@ The following guidelines for contribution should be followed if you want to subm
 
 ## How to prepare
 
-* You need a [GitHub account](https://github.com/signup/free)
-* Submit an [issue ticket](https://github.com/mat-0/boinc.thechels.uk/issues/new/choose) for your issue if there is not one already.
+* You need a [GitHub account](https://github.com/signup/)
+* Submit an [issue ticket](https://github.com/thechelsuk/uk.thechels.boinc/issues/new/choose) for your issue if there is not one already.
 * Describe the issue and include steps to reproduce if it's a bug.
 * Ensure to mention the earliest version that you know is affected.
 
@@ -30,8 +30,7 @@ Guidelines for bug reports:
 
 2. **Check if the issue has been fixed/closed** &mdash; but you can still reproduce it - raise a new issue include the url to the old issue. re-opened issues will not be accepted.
 
-3. **Isolate the problem** &mdash; create a [reduced test
-   case](http://css-tricks.com/reduced-test-cases/) and a live example.
+3. **Isolate the problem** &mdash; create a [reduced test case](https://css-tricks.com/reduced-test-cases/) and a live example.
 
 A good bug report shouldn't leave others needing to chase you up for more
 information. Please try to be as detailed as possible in your report. What is
