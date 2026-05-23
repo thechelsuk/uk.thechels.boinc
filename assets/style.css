@@ -21,6 +21,10 @@ html {
     src: url("/assets/TheChelsLight.woff") format("woff");
 }
 
+.flow>*+* {
+    margin-block-start: var(--flow-space, 1em);
+}
+
 .primary {
     color: var(--primary);
 }
