@@ -16,8 +16,6 @@ html {
     scroll-behavior: smooth;
 }
 
-// 16px = 1em
-
 @font-face {
     font-family: "TheChelsLight";
     src: url("/assets/TheChelsLight.woff") format("woff");
@@ -53,7 +51,7 @@ html {
     padding: 0.525em;
     border-radius: 0.5em;
     margin: 0.525em;
-    border: 1px solid #121212;
+    border: 1px solid var(--secondary);
 }
 
 body {
