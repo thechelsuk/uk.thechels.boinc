@@ -3,3 +3,6 @@ encoding: UTF-8
 future: false
 sass:
   style: compressed
+include:
+  - assets
+baseurl: https://boinc.thechels.uk
