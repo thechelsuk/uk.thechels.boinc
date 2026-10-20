@@ -1,0 +1,30 @@
+---
+layout: null
+permalink: /llms.txt
+---
+# {{ site.title }}
+
+> {{ site.description }}
+
+This is a single-page guide from thechelsuk (https://thechels.uk) for people joining the TheChels team on BOINC, the Berkeley Open Infrastructure for Network Computing.
+
+Key facts:
+
+- BOINC lets volunteers donate spare computer time to university research projects
+- The guide covers Rosetta@home (protein folding for disease research) and World Community Grid (an umbrella project for health and climate research)
+- Tasks run at low priority, so normal computer use isn't slowed down
+- Suggested minimum memory: 1 GB RAM for a single-core machine, 2 GB for dual-core and 4 GB for quad-core
+
+## Guide
+
+- [How to join the TheChels BOINC team]({{ "/" | absolute_url }}): installing BOINC, attaching to Rosetta@home, adjusting account settings, joining the TheChels team and troubleshooting
+
+## Projects
+
+- [BOINC](https://boinc.berkeley.edu/): download the BOINC client
+- [Rosetta@home](https://boinc.bakerlab.org/rosetta/): protein structure prediction for disease research
+- [World Community Grid](https://www.worldcommunitygrid.org/): umbrella project for health and climate research
+
+## Optional
+
+- [More from thechelsuk](https://thechels.uk/projects): other projects by the same author

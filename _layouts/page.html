@@ -1,29 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-GB">
 
     <head>
-        <title>Boinc @ TheChels</title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description"
-            content="BOINC is a platform that allows computers all round the world to contribute their spare computing capacity to run distributed applications.">
-        <meta name="keywords" content="BOINC, TheChels, distributed computing, Rosetta, World Community Grid">
-        <meta name="author" content="TheChels.org">
-        <meta name="robots" content="index, follow">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        {%- assign page_desc = page.description | default: site.description %}
+        {%- assign page_url = page.url | absolute_url %}
+        <title>{{ site.title }}: how to join the team and donate computing power</title>
+        <meta name="description" content="{{ page_desc | escape }}">
+        <link rel="canonical" href="{{ page_url }}">
+        <meta name="keywords" content="BOINC, TheChels, distributed computing, Rosetta, World Community Grid">
+        <meta name="author" content="thechelsuk">
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
         <meta name="format-detection" content="telephone=no">
         <meta name="format-detection" content="address=no">
         <meta name="HandheldFriendly" content="True">
         <meta name="theme-color" content="#005CA3">
-        <meta name="robots" content="index,follow">
         <meta name="mobile-web-app-capable" content="yes">
         <meta name="apple-touch-fullscreen" content="yes">
-        <meta name="apple-mobile-web-app-title" content="Mat B">
+        <meta name="apple-mobile-web-app-title" content="BOINC">
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+        <meta property="og:type" content="article">
+        <meta property="og:locale" content="en_GB">
+        <meta property="og:site_name" content="{{ site.title }}">
+        <meta property="og:url" content="{{ page_url }}">
+        <meta property="og:title" content="{{ site.title }}">
+        <meta property="og:description" content="{{ page_desc | escape }}">
+        <meta property="og:image" content="https://thechels.uk/.well-known/avatar.png">
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:title" content="{{ site.title }}">
+        <meta name="twitter:description" content="{{ page_desc | escape }}">
+        <meta name="twitter:image" content="https://thechels.uk/.well-known/avatar.png">
+
+        <link rel="icon" type="image/png" href="/assets/images/TheChels.png">
         <link rel="stylesheet" href="/assets/style.css">
         <link href="/assets/thechelsuk-Regular.woff2" rel="preload" crossorigin as="font" type="font/woff2">
         <link href="/assets/thechelsuk-Bold.woff2" rel="preload" crossorigin as="font" type="font/woff2">
+
+        <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Organization",
+              "@id": "https://thechels.uk/#org",
+              "name": "thechelsuk",
+              "url": "https://thechels.uk",
+              "logo": "https://thechels.uk/.well-known/avatar.png",
+              "sameAs": ["https://links.thechels.uk/", "https://github.com/thechelsuk"]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "{{ '/' | absolute_url }}#website",
+              "url": "{{ '/' | absolute_url }}",
+              "name": "{{ site.title }}",
+              "inLanguage": "en-GB",
+              "publisher": { "@id": "https://thechels.uk/#org" }
+            },
+            {
+              "@type": "Article",
+              "@id": "{{ page_url }}#article",
+              "url": "{{ page_url }}",
+              "mainEntityOfPage": "{{ page_url }}",
+              "headline": "How to join the TheChels BOINC team",
+              "description": {{ page_desc | jsonify }},
+              "inLanguage": "en-GB",
+              "isPartOf": { "@id": "{{ '/' | absolute_url }}#website" },
+              "author": { "@id": "https://thechels.uk/#org" },
+              "publisher": { "@id": "https://thechels.uk/#org" },
+              "image": "https://thechels.uk/.well-known/avatar.png",
+              "about": [
+                { "@type": "Thing", "name": "BOINC", "sameAs": "https://en.wikipedia.org/wiki/Berkeley_Open_Infrastructure_for_Network_Computing" },
+                { "@type": "Thing", "name": "Rosetta@home", "sameAs": "https://en.wikipedia.org/wiki/Rosetta@home" },
+                { "@type": "Thing", "name": "World Community Grid", "sameAs": "https://en.wikipedia.org/wiki/World_Community_Grid" }
+              ]
+            }
+          ]
+        }
+        </script>
     </head>
 
     <body>

@@ -102,4 +102,4 @@ Below are a list of further Wiki links on the general subject.
 - [BOINC](https://en.wikipedia.org/wiki/Berkeley_Open_Infrastructure_for_Network_Computing)
 - [Distributed computing](https://en.wikipedia.org/wiki/Distributed_computing)
 - [List of Distributed computing projects - Wiki](https://en.wikipedia.org/wiki/List_of_distributed_computing_projects)
-- [Platforms supported by projects](httpss://boinc.berkeley.edu/projects.php)
+- [Platforms supported by projects](https://boinc.berkeley.edu/projects.php)

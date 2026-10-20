@@ -1,0 +1,5 @@
+# robots.txt for boinc.thechels.uk
+User-agent: *
+Allow: /
+
+Sitemap: https://boinc.thechels.uk/sitemap.xml

@@ -5,4 +5,7 @@ sass:
   style: compressed
 include:
   - assets
-baseurl: https://boinc.thechels.uk
+url: https://boinc.thechels.uk
+baseurl: ""
+title: "BOINC @ TheChels"
+description: "How to join the TheChels team on BOINC: install BOINC, attach to Rosetta@home and World Community Grid, and donate spare computing power to medical research."
