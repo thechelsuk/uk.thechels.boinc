@@ -1,12 +1,6 @@
 ---
 version: 2
 updates:
-  - package-ecosystem: "pip"
-    directory: "/"
-    assignees:
-      - thechelsuk
-    schedule:
-      interval: "daily"
   - package-ecosystem: "github-actions"
     directory: "/"
     assignees:
