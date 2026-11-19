@@ -22,4 +22,6 @@ jobs:
               env:
                   VALIDATE_ALL_CODEBASE: false
                   DEFAULT_BRANCH: main
+                  # Pages share layout boilerplate by design
+                  VALIDATE_JSCPD: false
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
